@@ -279,13 +279,16 @@ header {
     margin: 0 auto;
     gap: 9px;
     cursor: pointer;
-
 }
 .menu-grid-icon {
     background-repeat: no-repeat;
+    background-position: center center;
     width: 25px;
     height: 18px;
     display: block; 
+}
+.menu-grid-icon img {
+    max-width: 100%;
 }
 .menu-grid-text {
     color: #1E2F40;
@@ -304,7 +307,7 @@ header {
     padding-bottom: 106px;
     margin-top: 150px;
 }
-.footer-box{
+.footer-box {
     display: flex;
     justify-content: space-between;
 }
