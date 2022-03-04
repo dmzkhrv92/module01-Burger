@@ -282,7 +282,7 @@ header {
     color: #979797;
 }
 .menu-grid-btn {
-    background-color: #F37335;
+    background-color: #FBB731;
     border-radius: 5px;
     padding: 10px 30px;
     border: none;
@@ -361,6 +361,9 @@ header {
 }
 .footer-list-tel li {
     margin-bottom: 12px;
+}
+.footer-list-tel a:hover {
+    color: #DEDEDE;
 }
 .footer-list-tel a {
     font-size: 20px;
@@ -624,14 +627,14 @@ header {
      }
      .menu-other {
          overflow: hidden;
-         height: 605px;
+         height: 108vw;
      }
      .menu-other .menu-grid {
          display: flex;
          width: auto;
          overflow-x: scroll;
          overflow-y: hidden;
-         padding-bottom: 50px;
+         padding-bottom: 24vw;
      }
      .menu-other .menu-grid-item {
          flex: 0 0 281px;
@@ -655,9 +658,9 @@ header {
      .header {
          gap: 21px;
      }
-     .menu-other {
-        height: 95vw;
-    }
+     .menu-grid-title {
+         font-size: 28px;
+     }
      .menu-other .container {
          padding-right: 0;
          padding-top: 0px;
@@ -671,7 +674,7 @@ header {
          height: 58vw;
      }
      .menu-grid-title {
-         font-size: 26px;
+         font-size: 24px;
      }
      .menu-title {
          font-size: 40px;
@@ -751,9 +754,6 @@ header {
     }
     .menu-other .container {
         padding-top: 40px;
-    }
-    .menu-other .menu-grid {
-        padding-bottom: 24vw;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
