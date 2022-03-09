@@ -350,6 +350,9 @@ header {
     font-weight: 400;
     transition: 0.3s
 }
+.footer-list a:hover {
+    color: #FBB731;
+}
 .footer-item span {
     color: #DEDEDE;
     display: block;
@@ -362,9 +365,6 @@ header {
 .footer-list-tel li {
     margin-bottom: 12px;
 }
-.footer-list-tel a:hover {
-    color: #DEDEDE;
-}
 .footer-list-tel a {
     font-size: 20px;
     font-weight: 900;
@@ -375,8 +375,8 @@ header {
     padding-left: 0;
     list-style-type: none;
 }
-.footer-list a:hover {
-    color: #FBB731;
+.footer-list-tel a:hover {
+    color: #DEDEDE;
 }
 .button-up {
     background-color: #FBB731;
@@ -599,6 +599,49 @@ header {
          display: none;
      }
  }
+
+ @media (max-width: 1100px) {
+
+    /* Style INDEX */
+
+    .content {
+        padding-top: 42px;
+        padding-left: 10px;
+        padding-bottom: 124px;
+        flex: 0 0 570px;
+    }
+    .content-title {
+        font-size: 86px;
+        line-height: 100px;
+        padding-left: 10px;
+    }
+    .content-title span {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+    }
+    .content-text {
+        width: 405px;
+        font-size: 14px;
+        line-height: 19px;
+        padding-left: 10px;
+    }
+    .content-link {
+        margin-left: 10px;
+        padding: 20px 40px;
+    }
+    .main img {
+        width: 530px;
+        right: 139px;
+        top: 95px;
+    }
+    .visual-bg {
+        width: 135px;
+        height: 100%;
+        padding-right: 118px;
+        margin-right: 245px;
+    }
+}
  @media (max-width: 1000px) {
      .container {
          max-width: 738px;
@@ -627,14 +670,16 @@ header {
      }
      .menu-other {
          overflow: hidden;
-         height: 108vw;
+         height: 583px;
      }
      .menu-other .menu-grid {
          display: flex;
          width: auto;
          overflow-x: scroll;
          overflow-y: hidden;
-         padding-bottom: 24vw;
+         padding-bottom: 50px;
+         margin-top: -16px;
+         gap: 17px 3px;
      }
      .menu-other .menu-grid-item {
          flex: 0 0 281px;
@@ -648,8 +693,28 @@ header {
      }
      .footer-list + .footer-list-tel {
         display: block;
+     }
+
+     /* Style INDEX */
+
+     .promo {
+        padding: 104px 15px 46px;
     }
- }
+    .promo-left {
+        height: 300px;
+        padding: 47px 31px;
+    }
+    .promo-description {
+        font-size: 14px;
+    }
+    .promo-right {
+        height: 300px;
+        padding: 65px 29px;
+    }
+    .promo-right .promo-description {
+        margin-bottom: 12px;
+    }
+}
 
  @media (max-width: 765px) {
      nav {
@@ -663,12 +728,40 @@ header {
      }
      .menu-other .container {
          padding-right: 0;
-         padding-top: 0px;
+         padding-top: 0;
      }
      .button-up.visible {
          display: none;
      }
+
+     /* Style INDEX */
+
+    .content {
+        flex: 0 0 477px;
+    }
+    .content-title {
+        font-size: 82px;
+    }
+    .content-title span {
+        font-size: 20px;
+    }
+    .content-text {
+        margin-right: 124px;
+    }
+    .promo-left {
+        height: 283px;
+    }
+    .promo-right {
+        height: 283px;
+    }
+    .promo-description {
+        font-size: 13.5px;
+    }
+    .cost {
+        font-size: 58px;
+    }
  }
+
  @media (max-width: 620px) {
      .menu-grid-cover {
          height: 58vw;
@@ -685,6 +778,41 @@ header {
      .menu-grid-cover img {
          height: 320px;
      }
+     .footer {
+         margin-top: 30px;
+     }
+
+     /* Style INDEX */
+
+    .wrapper {
+        gap: 5px;
+    }
+    .content {
+        flex: 0 0 585px;
+    }
+    .content-title span {
+        font-size: 17px;
+    }
+    .content-title {
+        font-size: 78px;
+    }
+    .main img {
+        width: 365px;
+        right: 468px;
+        top: 280px;
+    }
+    .promo-left {
+        height: 283px;
+    }
+    .promo-right {
+        height: 283px;
+    }
+    .promo-description {
+        font-size: 13.5px;
+    }
+    .cost {
+        font-size: 58px;
+    }
  }
  @media (max-width: 567px) {
      .header {
@@ -750,7 +878,7 @@ header {
         padding: 10px 21px;
     }
     .menu-other {
-        height: 115vw;
+        height: 467px;
     }
     .menu-other .container {
         padding-top: 40px;
@@ -794,6 +922,34 @@ header {
     .footer-tel {
         grid-area: tel;
     }
+    .promo-left {
+        height: 283px;
+    }
+    .promo-right {
+        height: 283px;
+    }
+    .promo-description {
+        font-size: 13.5px;
+    }
+    .free {
+        font-size: 35px;
+    }
+    .cost {
+        font-size: 35px;
+    }
+}
+ @media (max-width: 500px) {
+    .content-title {
+        font-size: 63px;
+        line-height: 1.5;
+    }
+    .content-text {
+        font-size: 13px;
+        width: 300px;
+    }
+    .promo .wrapper {
+        flex-direction: column;
+    }
 }
  @media (max-width: 360px) {
     .header-logo {
@@ -802,6 +958,33 @@ header {
         background-size: contain;
     }
     .menu-grid-title {
+        font-size: 13px;
+    }
+
+    /*style-index*/
+
+    .content-title span {
+        font-size: 14px;
+    }
+    .content-title {
+        font-size: 58px;
+        width: 290px;
+    }
+    .main img {
+        width: 250px;
+        right: 734px;
+        top: 368px;
+    }
+    .cost {
+        font-size: 55px;
+    }
+    .promo-description {
+        font-size: 13px;
+    }
+    .free {
+        font-size: 39px;
+    }
+    .promo-description {
         font-size: 13px;
     }
 }
