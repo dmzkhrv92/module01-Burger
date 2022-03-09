@@ -778,8 +778,11 @@ header {
      .menu-grid-cover img {
          height: 320px;
      }
+     .menu-other {
+        height: 576px;
+    }
      .footer {
-         margin-top: 30px;
+         margin-top: 150px;
      }
 
      /* Style INDEX */
@@ -878,7 +881,7 @@ header {
         padding: 10px 21px;
     }
     .menu-other {
-        height: 467px;
+        height: 514px;
     }
     .menu-other .container {
         padding-top: 40px;
@@ -893,9 +896,7 @@ header {
         flex: 0 0 38vw;
     }
     .footer {
-        margin-top: 28px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        margin-top: 150px;
     }
     .footer-list + .footer-list-tel {
         display: none;
@@ -988,6 +989,25 @@ header {
         font-size: 13px;
     }
 }
+@media (max-width: 567px) {
+    .menu-other {
+        height: 514px;
+    }
+    .footer {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 480px) {
+    .menu-other {
+        height: 467px;
+    }
+}
+@media (max-width: 400px) {
+    .menu-other {
+        height: 421px;
+    }
+}
+
  @media (max-width: 320px) {
     .banner-box {
         background-position: 25% center;
