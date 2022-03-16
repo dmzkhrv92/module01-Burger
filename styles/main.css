@@ -315,8 +315,8 @@ header {
 .footer {
     background: #1E2F40;
     color: #fff;
-    padding-top: 117px;
-    padding-bottom: 106px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     margin-top: 150px;
 }
 .footer-box {
@@ -645,6 +645,7 @@ header {
  @media (max-width: 1000px) {
      .container {
          max-width: 738px;
+         padding-right: 15px;
      }
      .header-logo {
          width: 150px;
@@ -679,7 +680,7 @@ header {
          overflow-y: hidden;
          padding-bottom: 50px;
          margin-top: -16px;
-         gap: 17px 3px;
+         gap: 17px 15px;
      }
      .menu-other .menu-grid-item {
          flex: 0 0 281px;
@@ -727,7 +728,7 @@ header {
          font-size: 28px;
      }
      .menu-other .container {
-         padding-right: 0;
+         padding-right: 15;
          padding-top: 0;
      }
      .button-up.visible {
@@ -846,6 +847,9 @@ header {
         padding: 35px 24px 54px;
         margin-bottom: 70px;
     }
+    .banner-text {
+        max-width: 247px;
+    }
     .menu-title {
         font-size: 27px;
     }
@@ -853,7 +857,7 @@ header {
         font-size: 12px;
         flex-basis: 136px;
         padding: 13px 24px 13px 15px;
-        background-position: 91 center;
+        background-position: 91% center;
     }
     .menu-header {
         margin-bottom: 30px;
@@ -864,7 +868,6 @@ header {
     }
     .menu-grid-cover {
         height: 56vw;
-        margin-bottom: 10px;
     }
     .menu-grid-cover img {
         height: 100%;
@@ -1007,8 +1010,7 @@ header {
         height: 421px;
     }
 }
-
- @media (max-width: 320px) {
+@media (max-width: 320px) {
     .banner-box {
         background-position: 25% center;
     }
