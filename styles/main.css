@@ -264,6 +264,9 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
 }
 .menu-grid-title {
     color: #1B2A49;
@@ -668,6 +671,9 @@ header {
          background-position: -80px center;
          padding: 100px 40px 120px;
      }
+     .container-menu {
+        max-width: 738px; 
+     }
      .menu-grid {
          grid-template-columns: repeat(2, 1fr);
          gap: 50px 15px;
@@ -720,12 +726,9 @@ header {
     }
 }
  @media (max-width: 785px) {
+
     .menu-other .menu-grid {
         margin-right: -15px;
-    }
-    .menu-other .menu-grid-item {
-        flex: 0 0 38vw;
-        padding-right: 15px;
     }
 }
  @media (max-width: 765px) {
@@ -928,6 +931,12 @@ header {
     }
     .menu-other .container {
         padding-top: 40px;
+    }
+    .menu-other .menu-grid {
+        gap: 17px 6px;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 38vw;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
