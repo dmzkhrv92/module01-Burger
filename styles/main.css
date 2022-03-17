@@ -239,6 +239,7 @@ header {
     appearance: none;
     flex-basis: 279px;
     background-image: url(../images/chevron-down.svg);
+    background-color: #fff;
     background-size: 12.79px 7.75px;
     background-repeat: no-repeat;
     background-position: 89% center;
@@ -248,6 +249,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 20px;
     margin-bottom: 100px;
+    padding-right: 15px;
 }
 .menu-grid-item {
     display: block;
@@ -742,7 +744,7 @@ header {
          font-size: 28px;
      }
      .menu-other .container {
-         padding-right: 15;
+         padding-right: 15px;
          padding-top: 0;
      }
      .button-up.visible {
@@ -844,9 +846,7 @@ header {
         font-size: 78px;
     }
     .main img {
-        width: 365px;
-        right: 468px;
-        top: 280px;
+        display: none;
     }
     .promo-left {
         height: 283px;
