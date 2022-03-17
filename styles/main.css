@@ -253,6 +253,7 @@ header {
 }
 .menu-grid-item {
     display: block;
+    padding-right: 15px;
 }
 .menu-grid-cover {
     width: 100%;
@@ -678,7 +679,7 @@ header {
      }
      .menu-grid {
          grid-template-columns: repeat(2, 1fr);
-         gap: 50px 15px;
+         gap: 50px 0px;
      }
      .menu-other {
          overflow: hidden;
@@ -691,7 +692,7 @@ header {
          overflow-y: hidden;
          padding-bottom: 50px;
          margin-top: -16px;
-         gap: 17px 15px;
+         gap: 17px 0;
      }
      .menu-other .menu-grid-item {
          flex: 0 0 281px;
@@ -742,10 +743,6 @@ header {
      }
      .menu-grid-title {
          font-size: 28px;
-     }
-     .menu-other .container {
-         padding-right: 15px;
-         padding-top: 0;
      }
      .button-up.visible {
          display: none;
@@ -906,7 +903,7 @@ header {
         margin-bottom: 30px;
     }
     .menu-grid {
-        gap: 25px 15px;
+        gap: 25px 0px;
         margin-bottom: 40px;
     }
     .menu-grid-cover {
@@ -933,7 +930,7 @@ header {
         padding-top: 40px;
     }
     .menu-other .menu-grid {
-        gap: 17px 6px;
+        gap: 17px 0;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 38vw;
