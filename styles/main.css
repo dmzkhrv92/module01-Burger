@@ -859,14 +859,14 @@ header {
     }
  }
  @media (max-width: 567px) {
-     .header {
+    .header {
          padding-top: 19px;
          padding-bottom: 19px;
-     }
-     .header-logo {
+    }
+    .header-logo {
          width: 116px;
          height: 37px;
-     }
+    }
     .bg {
         margin-bottom: 33px;
     }
