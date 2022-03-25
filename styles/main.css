@@ -415,6 +415,7 @@ header {
 
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    overflow-x: hidden;
 }
 .wrapper {
     max-width: 1180px;
